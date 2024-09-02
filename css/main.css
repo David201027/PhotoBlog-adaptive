@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+:root {
+  --font-family: "Playfair Display";
+  --second-family: "Ubuntu";
+  ---color-main: #03A9F4;
+  ---color-text: #626262;
+  ---color-a: #B4AD9E;
+  ---color-a-header: #7D7D7D;
+}
+
+.main-container {
+  width: 1200px;
+  margin: 0 auto;
+  /* outline: 1px dotted greenyellow; */
+}
+
+.container {
+  width: 905px;
+  margin: 0 auto;
+  padding: 0;
+  /* outline: 1px dotted red; */
+}/*# sourceMappingURL=main.css.map */
