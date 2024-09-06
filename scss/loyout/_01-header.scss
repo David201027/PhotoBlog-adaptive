@@ -1,0 +1,24 @@
+.header{
+    padding-top: 71px;
+    padding-bottom: 92px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 556px;
+}
+.header-link :hover{
+    color: var(---color-a-header);
+}
+.header-link:active{
+    color: var(---color-main);
+}
+.header-link{
+    color: var(---color-a-header);
+}
