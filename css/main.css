@@ -64,7 +64,7 @@ button:hover {
   padding: 0;
   outline: 1px dotted red;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 30px) {
   .container {
     width: 480px;
     outline: 2px solid green;
@@ -92,12 +92,25 @@ button:hover {
   line-height: 1.2;
 }
 
+.header-div {
+  width: 100vw;
+  max-width: 480px;
+}
+
 .header-list {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   margin: 0 auto;
   width: 100%;
   max-width: 556px;
+  gap: 10px;
+}
+
+.header-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .header-link :hover {
@@ -112,6 +125,22 @@ button:hover {
   color: var(---color-a-header);
 }
 
+@media screen and (min-width: 768px) {
+  .header-div {
+    width: 768px;
+  }
+  .header-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 904px) {
+  .header-list {
+    display: flex;
+    flex-direction: row;
+  }
+}
 .galery-div {
   display: flex;
   align-items: center;
